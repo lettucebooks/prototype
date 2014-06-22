@@ -1,0 +1,29 @@
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-fullwidth {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-fullheight {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.image-circle {
+  display: block;
+  border-radius: 500px;
+}
+
+.logo__case-study {
+  width: 100%;
+  max-width: 12em;
+  margin: auto;
+  img { width: 100%; }
+}

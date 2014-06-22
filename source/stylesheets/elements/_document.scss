@@ -1,0 +1,21 @@
+// Document
+
+html {
+  font-size: 100%;
+}
+
+body {
+  position: relative;
+  background: $white;
+  color: $black;
+  font-family: $typeface-sans;
+  font-size: 100%;
+  @include media-ie { min-width: $breakpoint-desktop; }
+
+  @include media-ie($typography-breakpoint1) {
+    font-size: 112.5%;
+  }
+} // body
+
+::-moz-selection { color: $white;  background: $black; }
+::selection      { color: $white;  background: $black; }
