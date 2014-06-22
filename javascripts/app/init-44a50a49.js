@@ -1,0 +1,1 @@
+var Main=App.Main;React.renderComponent(Main(null),document.getElementById("app"));

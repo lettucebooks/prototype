@@ -1,0 +1,1 @@
+App.Main=React.createClass({displayName:"Main",render:function(){return React.DOM.div({className:"b-app"},React.DOM.h1(null,"App Init"))}});
